@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+
+            android:id="@+id/imagee1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/fruit_1" />
+
+        <ImageView
+
+            android:id="@+id/imagee2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/fruit_1" />
+
+        <ImageView
+
+            android:id="@+id/imagee3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/fruit_1" />
+
+        <ImageView
+
+            android:id="@+id/imagee4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/fruit_1" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageeMain"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/fruit_1" />
+
+    <Button
+        android:id="@+id/bu_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@android:color/holo_purple"
+        android:text="NEXT"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        tools:background="@android:color/holo_purple" />
+
+    <TextView
+        android:id="@+id/tev_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text=""
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="?attr/colorError"
+        android:textSize="36sp" />
+
+
+</RelativeLayout>
